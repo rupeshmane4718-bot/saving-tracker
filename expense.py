@@ -7,7 +7,7 @@ from firebase_admin import credentials, db
 
 # --- Firebase Setup ---
 if not firebase_admin._apps:
-    cred = credentials.Certificate("firebase-key.json")  # Path to your Firebase service account key
+    cred = credentials.Certificate("firebase_credentials.json")  # Path to your Firebase service account key
     firebase_admin.initialize_app(cred, {
         'databaseURL': 'https://orphanage-f0bb1-default-rtdb.firebaseio.com/'  # Replace with your Firebase DB URL
     })
