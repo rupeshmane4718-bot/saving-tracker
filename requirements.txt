@@ -1,5 +1,5 @@
-streamlit
-pandas
-firebase-admin
-fpdf2
+streamlit==1.47.1
+firebase_admin==7.1.0
+pandas==2.2.2
+fpdf2==2.8.4
 firebase_credentials.json
