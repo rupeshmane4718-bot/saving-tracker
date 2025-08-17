@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from fpdf import FPDF2
+from fpdf import FPDF
 from datetime import datetime
 import firebase_admin
 from firebase_admin import credentials, db
